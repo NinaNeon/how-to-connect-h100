@@ -24,3 +24,14 @@ https://docs.docker.com/engine/reference/commandline/login/#credential-stores
 
 Login Succeeded
 ```
+
+
+### ✅ 正確可執行版本：
+
+```bash
+docker tag myimage:latest afspod-registry.dginfra.gov.tw/dfc9a9be-007b-4d52-8f3c-8d2d1569eac3/myimage:latest
+
+docker push afspod-registry.dginfra.gov.tw/dfc9a9be-007b-4d52-8f3c-8d2d1569eac3/myimage:latest
+```
+
+
