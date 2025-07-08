@@ -14,3 +14,13 @@ cp Dockerfile.txt ~/docker_build_test/
 cd ~/docker_build_test
 docker build -f Dockerfile.txt -t myimage:latest .
 ```
+```bash
+nina@nina-X550VX:~/docker_build_test$ docker login afspod-registry.dginfra.gov.tw
+Username: p83254319.1
+Password: 
+WARNING! Your password will be stored unencrypted in /home/nina/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credential-stores
+
+Login Succeeded
+```
