@@ -34,4 +34,6 @@ docker tag myimage:latest afspod-registry.dginfra.gov.tw/dfc9a9be-007b-4d52-8f3c
 docker push afspod-registry.dginfra.gov.tw/dfc9a9be-007b-4d52-8f3c-8d2d1569eac3/myimage:latest
 ```
 
+![image](https://github.com/user-attachments/assets/90c8c378-a2f2-41c1-a12c-7b1b12bdb466)
 
+![image](https://github.com/user-attachments/assets/05c869fd-0346-4137-a0cc-e42f3ed2d9db)
