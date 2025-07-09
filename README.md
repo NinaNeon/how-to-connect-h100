@@ -46,6 +46,60 @@ docker push afspod-registry.dginfra.gov.tw/dfc9a9be-007b-4d52-8f3c-8d2d1569eac3/
 (odise) root@odise:~/ODISE$ python tools/train_net.py --config-file configs/Panoptic/odise_caption_coco_50e.py
 
 ---
+好 ✅ 你現在已經在 container 裡，只要你有網路，以下這一包直接貼上 terminal 即可：
+
+---
+
+## ✅ 🚀 一鍵安裝 ODISE 推薦環境（使用 Conda）
+
+```bash
+# 1. 安裝 Miniconda
+cd /workspace
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+bash miniconda.sh -b -p $HOME/miniconda
+eval "$($HOME/miniconda/bin/conda shell.bash hook)"
+
+# 2. 初始化 Conda
+conda init
+source ~/.bashrc
+
+# 3. 建立 Conda 環境
+conda create -y -n odise python=3.9
+conda activate odise
+
+# 4. 安裝 PyTorch + CUDA 11.6
+conda install -y pytorch=1.13.1 torchvision=0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+
+# 5. 安裝 CUDA 補充元件
+conda install -y -c "nvidia/label/cuda-11.6.1" libcusolver-dev
+
+# 6. Clone ODISE
+cd /workspace
+git clone https://github.com/NVlabs/ODISE.git
+cd ODISE
+
+# 7. 安裝 detectron2 + odise
+pip install -e .
+```
+
+---
+
+## ✅ 成功後測試：
+
+```bash
+conda activate odise
+python -c "import detectron2; import odise; print('✅ detectron2 + odise ready')"
+```
+
+你會看到：
+
+```
+✅ detectron2 + odise ready
+```
+
+
+
+
 
 ### ✅ 建議正式指令如下：
 
