@@ -3,6 +3,7 @@
 https://afspod-docs.dginfra.gov.tw/s/container-image
 
 ---
+conda activate odise
 
 ### ✅ 解法 A：切換到乾淨目錄下建置
 
