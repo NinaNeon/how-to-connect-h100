@@ -114,7 +114,7 @@ python tools/train_net.py \
   --config-file configs/Panoptic/odise_caption_coco_50e.py \
   --num-gpus 1 \
   --amp \
-  OUTPUT_DIR output/odise_caption_coco_50e
+  OUTPUT_DIR=output/odise_caption_coco_50e
 ```
 
 這樣會：
@@ -135,5 +135,5 @@ python tools/train_net.py \
   --num-gpus 1 \
   --amp \
   SOLVER.MAX_ITER=50 \
-  OUTPUT_DIR output/test_run
+  OUTPUT_DIR=output/test_run
 ```
