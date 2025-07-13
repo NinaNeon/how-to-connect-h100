@@ -1,5 +1,11 @@
 # how-to-connect-h100
+請參考以下資料連結：
 
+技術說明會會議連結：https://meet.google.com/mfy-urzy-csi
+
+平台登入入口：https://portal.dginfra.gov.tw/
+
+平台操作說明文件：https://reurl.cc/lYL6lq
 https://afspod-docs.dginfra.gov.tw/s/container-image
 
 ---
